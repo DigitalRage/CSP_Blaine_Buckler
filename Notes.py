@@ -1,0 +1,1 @@
+# Blaine Buckler, Variable Notes
