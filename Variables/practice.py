@@ -1,22 +1,23 @@
 # Blaine Buckler
-name = input("Blaine Buckler")
 
-one_to_ten = input("7")
+name = "Blaine Buckler"
 
-hundred_to_thousand = input("256")
+one_to_ten = "7"
 
-breakfast = input("Lucky Charms")
+hundred_to_thousand = "256"
 
-color = input("Navy Blue")
+breakfast = "Lucky Charms"
 
-school = input("Utah Country Acadamy of Sciences")
+color = "Navy Blue"
 
-year = input("2025")
+school = "Utah Country Acadamy of Sciences"
 
-eye_color = input("Dark Brown")
+year = "2025"
 
-age = input("14")
+eye_color = "Dark Brown"
 
-favorite_food = input("Tacos and Ribs")
+age = "14"
 
-print("My I'm" name+ )
+favorite_food = "Tacos and Ribs"
+
+print("Hy I'm" name+ )
