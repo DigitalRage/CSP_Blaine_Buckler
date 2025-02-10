@@ -20,4 +20,4 @@ age = "14"
 
 favorite_food = "Tacos and Ribs"
 
-print("Hy I'm" name+ )
+print("Hi I'm" name "if I pick a number between 1-10 I would chose" one_to_ten)
