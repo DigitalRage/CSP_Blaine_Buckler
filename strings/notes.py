@@ -19,4 +19,11 @@
  
 sentence = "The quick brown fox jumped over the lazy dog"
 
-print(sentence.split("fox"))
+word = sentence.find("fox")
+#print(sentence[word:word+3])
+#print(sentence[4:9])
+#print(len(sentence))
+#print("Welcome to my program "+name)
+#print(f"Welcome to my program {name}!")
+percent = 89
+print(f"your grade is {percent:.1f}")
