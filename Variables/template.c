@@ -1,7 +1,7 @@
 #include <stdio.h> 
 
 char name[] = "Blaine"; 
-int num = 42;
+int num = 14;
 float pi = 3.14;  
 
 int main(void){
