@@ -1,3 +1,4 @@
+//Blaine Buckler, c practice assignment
 #include <stdio.h> 
 
 char name[] = "Blaine"; 
