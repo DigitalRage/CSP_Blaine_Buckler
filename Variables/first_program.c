@@ -15,6 +15,6 @@ int main(void){
     printf("Please give me a second number: "); 
     scanf("%d", &num_two)
 
-    printf("Your numbers added together will be: "%d")
+    printf("Your numbers added together will be: %d" num+num_two);
     return 0; 
 }
