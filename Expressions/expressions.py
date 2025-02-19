@@ -42,3 +42,44 @@ numSeven = 2
 numEight = 3
 
 print(int(num*(numTwo*numThree-numFour/numFive)+(numSix+numSeven-numEight)))
+
+num = -1
+numTwo = 3
+numThree = 4
+numFour = 7
+numFive = 5
+numSix = 2
+numSeven = 24
+numEight = 6
+
+print(int(num*((numTwo-numThree*numFour)/numFive)-numSix*numSeven/numEight))
+
+num = 3
+numTwo = 5
+numThree = 15
+numFour = 5
+numFive = 2
+exponent = 2
+
+print(int((num*numTwo**exponent/numThree)-(numFour-numFive**exponent)))
+
+num = 1
+numTwo = 2
+numThree = 3
+numFour = 2
+numFive = 4
+exponent = 4
+exponentTwo = 2
+exponentThree = 3
+exponentFour = 5
+
+print(int((num**exponent*numTwo**exponentTwo+numThree**exponentThree)-numFour**exponentFour/numFive))
+
+num = -
+numTwo = 
+numThree = 
+numFour = 
+numFive = 
+numSix = 
+
+print(int(num*((numTwo-numThree*numFour)/numFive)-numSix*numSeven/numEight))
