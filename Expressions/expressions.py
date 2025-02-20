@@ -75,11 +75,13 @@ exponentFour = 5
 
 print(int((num**exponent*numTwo**exponentTwo+numThree**exponentThree)-numFour**exponentFour/numFive))
 
-num = -
-numTwo = 
-numThree = 
-numFour = 
-numFive = 
-numSix = 
+num = 22 
+numTwo = 2 
+numThree = 2 
+numFour = 5 
+numFive = 4 
+numSix = 6 
+numSeven = 6 
+exponent = 2
 
-print(int(num*((numTwo-numThree*numFour)/numFive)-numSix*numSeven/numEight))
+print(int(((num/numTwo-numThree*numFour)**exponent+(numFive-numSix/numSeven)**exponent)))
