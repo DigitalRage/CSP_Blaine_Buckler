@@ -1,4 +1,4 @@
-#Blaine Buckler, Expressions Python
+#Blaine Buckler, Expressions Assignment Python
 num = 7
 numTwo = 24
 numThree = 8
