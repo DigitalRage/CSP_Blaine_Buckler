@@ -12,13 +12,13 @@ int main(void){
 
     printf("%d", result); 
 
-    int num = 18; 
-    int numTwo = 3; 
-    int numThree = 7; 
-    int numFour = 7; 
-    int numFive = 6; 
+    int numOne = 18; 
+    int numTwoOne = 3; 
+    int numThreeOne = 7; 
+    int numFourOne = 2; 
+    int numFiveOne = 5; 
 
-    int result = num - numTwo / numThree * numFour + numFive; 
+    int resultTwo = numOne - numTwoOne / numThreeOne * numFourOne + numFiveOne; 
 
-    printf("%d", result); 
+    printf("%d", resultTwo); 
 }
