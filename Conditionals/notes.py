@@ -34,4 +34,5 @@ name = "Katie"
 if "a" in name or "e" in name or "i" in name or "o" in name or "u" in name:
     print("your name name has the vowel!")
 else:
-    print("your name doesn't have a vowel.")
+    print("your name doesn't have a vowel.") 
+    #work
