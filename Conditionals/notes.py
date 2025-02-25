@@ -29,10 +29,25 @@
 # 1st condition will be the least likely first
 # Don't trigger false positive
 
-name = "Katie"
+# name = "Katie"
 
-if "a" in name or "e" in name or "i" in name or "o" in name or "u" in name:
-    print("your name name has the vowel!")
-else:
-    print("your name doesn't have a vowel.") 
-    #work
+# if "a" in name or "e" in name or "i" in name or "o" in name or "u" in name:
+#     print("your name name has the vowel!")
+# else:
+#     print("your name doesn't have a vowel.") 
+
+num = 6
+
+if num > 5 and num < 10: 
+    if num == 7: 
+        print(f"{num}That is an unluck number!")
+    else: 
+        print(f"{num} is a large single digit number. ")
+else: 
+    if num == 4:
+        print(f"{num} is the best number")
+    else:
+        if num >= 10: 
+         print(f"{num} is not a single number")
+    else: 
+        print(f"{num} is a single number")
