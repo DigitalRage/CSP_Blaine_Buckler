@@ -67,5 +67,22 @@ int main(void){
     int numFourSix = 7; 
     int numFiveSix = 5; 
     int numSixSix = 2; 
-  
+    int numSevenSix = 24; 
+    int numEightSix = 6; 
+
+    int resultSix = numOneSix * ((numTwoSix - numThreeSix * numFourSix) / numFiveSix) - numSixSix * numSevenSix / numEightSix; 
+
+    printf("%d\n", resultSix); 
+
+    int numOneSeven = 3; 
+    int numTwoSeven = 5; 
+    int numThreeSeven = 15; 
+    int numFourSeven = 5; 
+    int numFiveSeven = 2; 
+
+    int resultSeven = (numOneSeven * (int)pow(numTwoSeven, exponentOfTwo) / numThreeSeven) - (numFourSeven - (int)pow(numFiveSeven, exponentOfTwo)); 
+
+    printf("%d\n", resultSeven); 
+
+    return 0; 
 }
