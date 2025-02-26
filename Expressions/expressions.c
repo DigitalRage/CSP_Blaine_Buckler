@@ -38,6 +38,34 @@ int main(void){
     int resultThree = numOneThree * numTwoThree - numThreeThree + numFourThree / numFiveThree - numSixThree;
 
     printf("%d\n", resultThree);  
+    int numOneFour = 17;
+    int numTwoFour = 6;
+    int numThreeFour = 2; 
+    int numFiveFour = 4; 
+    int numSixFour = 3;
 
+    int resultFour = (numOneFour - numTwoFour / numThreeFour) + numFiveFour * numSixFour; 
+
+    printf("%d\n", resultFour);
+
+    int numOneFive = -2;
+    int numTwoFive = 1;
+    int numThreeFive = 4; 
+    int numFourFive = 2; 
+    int numFiveFive = 2;
+    int numSixFive = 6; 
+    int numSevenFive = 2; 
+    int numEightFive = 3; 
+
+    int resultFive = numOneFive * (numTwoFive * numThreeFive - numFourFive / numFiveFive) + (numSixFive + numSevenFive - numEightFive); 
+
+    printf("%d\n", resultFive);
+
+    int numOneSix = -1; 
+    int numTwoSix = 3; 
+    int numThreeSix = 4; 
+    int numFourSix = 7; 
+    int numFiveSix = 5; 
+    int numSixSix = 2; 
   
 }
