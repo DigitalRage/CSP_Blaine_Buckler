@@ -84,5 +84,27 @@ int main(void){
 
     printf("%d\n", resultSeven); 
 
+    int numOneEight = 1; 
+    int numTwoEight = 2; 
+    int numThreeEight = 3; 
+    int numFourEight = 2; 
+    int numFiveEight = 4; 
+
+    int resultEight = ((int)pow(numOneEight, exponentOfFour) * (int)pow(numTwoEight, exponentOfTwo) + (int)pow(numThreeEight, exponentOfThree)) - (int)pow(numFourEight, exponentOfFive) / numFiveEight; 
+
+    printf("%d\n", resultEight); 
+
+    int numOneNine = 22; 
+    int numTwoNine = 2; 
+    int numThreeNine = 2; 
+    int numFourNine = 5; 
+    int numFiveNine = 4; 
+    int numSixNine = 6; 
+    int numSevenNine = 6; 
+
+    int resultNine = (int)pow((numOneNine / numTwoNine - numThreeNine * numFourNine), exponentOfTwo) + (int)pow((numFiveNine - numSixNine / numSevenNine), exponentOfTwo); 
+
+    printf("%d\n", resultNine); 
+
     return 0; 
 }
