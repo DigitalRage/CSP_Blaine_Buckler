@@ -26,8 +26,8 @@ int main(void){
     putilities = utilities/income *100; 
     pgroceries = groceries/income *100; 
     ptransportation =transportation/income *100; 
-    pexpenses = expenses/income *100
-    psavings = savings/income *100
+    pexpenses = expenses/income *100; 
+    psavings = savings/income *100; 
     printf("Your exspenses are %.f%% of your income\n", pexpenses); 
     return 0;
 }
