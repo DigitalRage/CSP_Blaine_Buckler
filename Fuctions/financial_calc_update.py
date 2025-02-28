@@ -12,8 +12,6 @@ utilities = float(input("what is your monthly utilities\n"))
 
 spending = float(input("what is your monthly spendings\n"))    
 
-utilities = float(input("what is your monthly\n"))   
-
 groceries = float(input("what is your monthly\n"))   
 
 transportation = float(input("what is your monthly\n"))

@@ -1,15 +1,16 @@
-# Blaine Buckler, Financial Calculator C
-print("Welcome to my program, this program will calculate your finances. ")
 
-# Prompt the user for financial information and convert inputs to integers
-income = int(input("Please tell me your monthly income: "))
-rent = int(input("Please tell me your monthly rent: "))
-utilities = int(input("Please tell me your monthly utilities: "))
-food = int(input("Please tell me your monthly groceries bill: "))
-transport = int(input("Please tell me your monthly transport bill: "))
+print("Welcome to my program, this program will calculate your finances. \n")
 
-# Calculate the leftover income
+
+income = int(input("Please tell me your monthly income: \n"))
+rent = int(input("Please tell me your monthly rent: \n"))
+utilities = int(input("Please tell me your monthly utilities: \n"))
+spending = int(input("Please tell me how much you spend on extra stuff a month: \n"))
+food = int(input("Please tell me your monthly groceries bill: \n"))
+transport = int(input("Please tell me your monthly transport bill: \n"))
+
+
 leftOver = income - rent - utilities - food - transport
 
-# Display the leftover income
+
 print("Your leftover income is", leftOver)
