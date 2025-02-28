@@ -18,4 +18,3 @@ leftOver = income - rent - utilities - food - transport
 
 
 print("Your leftover income is", leftOver)
-#work
