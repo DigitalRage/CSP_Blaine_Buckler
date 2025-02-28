@@ -9,6 +9,10 @@ spending = int(input("Please tell me how much you spend on extra stuff a month: 
 food = int(input("Please tell me your monthly groceries bill: \n"))
 transport = int(input("Please tell me your monthly transport bill: \n"))
 
+prent = rent/income
+putilities = utilities/income
+pspending = spending/income
+pfood = food/income
 
 leftOver = income - rent - utilities - food - transport
 
