@@ -1,0 +1,1 @@
+# Prompt the user for financial information and convert inputs to integers
