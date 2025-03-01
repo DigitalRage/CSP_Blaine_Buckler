@@ -1,3 +1,5 @@
+# Blaine Buckler, Financial Calculator Python
+
 print("Welcome to my program, this program will calculate your finances. \n")
 
 income = int(input("Please tell me your monthly income: \n$"))
