@@ -29,7 +29,7 @@ print("Your groceries is", "{:.2f}".format(pfood) + "% of your income\n")
 print("Your pay for transportation is", "{:.2f}".format(ptransport) + "% of your income\n")
 print("You should put", "{:.2f}".format(psavings) + "% into your savings")
 
-leftOver = 100 - (prent + putilities + pfood + ptransport + psavings)
+leftOver = 100 - (ptotal + psavings)
 
 print("Your leftover income would be", "{:.2f}".format(leftOver) + "%\n")
 print("In actual cash you will have $" + "{:.2f}".format(total) + ". \n")
