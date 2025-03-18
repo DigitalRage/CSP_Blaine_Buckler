@@ -26,7 +26,7 @@ print("Your groceries is", "{:.2f}".format(pfood) + "% of your income\n")
 print("Your pay for transportation is", "{:.2f}".format(ptransport) + "% of your income\n")
 print("You should put", "{:.2f}".format(savings) + "$ into your savings\n")
 
-spending = (total / income * 100) -10
+spending = (total / income * 100) -10 #This is percent form so I can subtract 10 to equal 10% less for the savings
 pspending = total - savings #total is income - exspenses
 
 print("You you will have", "{:.2f}".format(spending) + "% left to spend\n")
