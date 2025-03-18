@@ -2,13 +2,14 @@
 #include <string.h>
 
 int main(void) {
-    char lname[] = ' LaRose\'s';
+    char lname[] = " LaRose\'s";
     char fname[] = "Vienna";
     char prefix[] = "Ms.";
     strcat(prefix, fname); 
     printf("%s\n", prefix); 
     strcat(prefix, lname); 
     printf("%s\n", prefix); 
-    printf("%lu\n", sizeof(prefix)); 
+    //printf("%lu\n", sizeof(prefix)); 
+    printf("%ld\n", strlen(prefix)); 
     return 0;
 }
