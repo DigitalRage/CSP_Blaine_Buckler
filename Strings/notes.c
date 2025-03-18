@@ -2,7 +2,7 @@
 #include <string.h>
 
 int main(void) {
-    char lname[] = " LaRose";
+    char lname[] = ' LaRose\'s';
     char fname[] = "Vienna";
     char prefix[] = "Ms.";
     strcat(prefix, fname); 

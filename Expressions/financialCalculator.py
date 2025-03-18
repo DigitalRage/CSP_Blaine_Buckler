@@ -27,7 +27,7 @@ print("Your pay for transportation is", "{:.2f}".format(ptransport) + "% of your
 print("You should put", "{:.2f}".format(savings) + "$ into your savings\n")
 
 spending = (total / income * 100) -10
-pspending = total * 0.9
+pspending = total - savings #total is income - exspenses
 
 print("You you will have", "{:.2f}".format(spending) + "% left to spend\n")
 print("In actual cash you will have $" + "{:.2f}".format(pspending) + ". \n")
