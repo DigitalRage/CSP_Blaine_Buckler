@@ -2,7 +2,7 @@
 #include <string.h>
 
 int main(void) {
-    char lname[] = " LaRose\'s";
+    char lname[] = " LaRose";
     char fname[] = "Vienna";
     char prefix[] = "Ms.";
     strcat(prefix, fname); 
@@ -10,6 +10,6 @@ int main(void) {
     strcat(prefix, lname); 
     printf("%s\n", prefix); 
     //printf("%lu\n", sizeof(prefix)); 
-    printf("%ld\n", strlen(prefix)); 
+    printf("%d\n", strlen(prefix)); 
     return 0;
 }
