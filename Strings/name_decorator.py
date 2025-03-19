@@ -2,11 +2,29 @@
 
 name = input("Please tell me your name (first leter of each name is a capital): ")
 
-print("\n<><><>"+name+"<><><>")
-print("._."+name+"._.")
-print("It's "+name+" the fantastic! ")
-print("OwO "+name+" ^w^")
-print("#"+name+" is cool")
-print("Message me at "+name+"@gmail.com")
-print("$$$"+name+"$$$")
-print("|#1| "+name+" |#1|")
+arrows = "<><><>"
+bland = "._."
+catOne = "OwO "
+catTwo = " ^w^"
+hash = "#"
+cool = " is cool"
+emailS = "Message me at "
+emailE = "@gmail.com"
+dollar = "$$$"
+numOne = "|1|"
+
+arrowN = arrows+name+arrows
+blandN = bland+name+bland
+catN = catOne+name+catTwo
+hashT = hash+name+cool
+gMail = emailS+name+emailE
+bling = dollar+name+dollar
+uNumOne = numOne+name+numOne
+
+print("\n"+arrowN)
+print(blandN)
+print(catN)
+print(hashT)
+print(gMail)
+print(bling)
+print(uNumOne)
