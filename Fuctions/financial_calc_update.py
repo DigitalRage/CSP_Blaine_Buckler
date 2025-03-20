@@ -1,4 +1,4 @@
-def info(income, amount, type):
+def info(type, amount):
     pertype = amount/income*100
 print(f"You spend ${amount:.2f} on {type} and that {XX}% of your income")
 
@@ -21,3 +21,8 @@ perincome = float(input("what is your monthly\n"))
 savings = income*.1
 
 info(income, rent, "rent")
+
+
+
+    print(f"Your {type} is {per}% income")
+
