@@ -1,14 +1,29 @@
 // Blaine Buckler Name decorator, C
 #include <stdio.h>
+#include <string.h>
 
 int main(void){
     char name[50]; 
-    printf("Please tell me your name: "); 
+    char smile[100] = "(: ";
+    char smileT[4] = " :)";
+    char hash[100] = "##"; 
+    char hashT[3]= "##"; 
+    char arrow[100] = "<><>";
+    char arrowT[5] = "<><>";
+    printf("Please tell me your name: ");
     scanf("%s", name);
-    printf("Hello %s this is like a MadLib\nPlease answer the questions.\n", name); 
-    return 0;
 
-    printf("Please tell me a noun")
-    printf("Please tell me a")
-    printf("Please tell me a")
+    strcat(smile, name); 
+    strcat(smile, smileT); 
+    strcat(hash, name); 
+    strcat(hash, hashT); 
+    strcat(arrow, name); 
+    strcat(arrow, arrowT); 
+
+    printf("%s\n", smile); 
+    printf("%s\n", hash); 
+    printf("%s\n", arrow); 
+    
+
+    return 0; 
 }
