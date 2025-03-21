@@ -17,11 +17,11 @@ income, rent, utilities, food, transport = get_inputs()
 savings = income * 0.2
 exspenses = rent + utilities + food + transport
 spending = income - exspenses - savings
-prent = rent / income * 100
-putilities = utilities / income * 100
-pfood = food / income * 100
-ptransport = transport / income * 100
-psavings = savings/income * 100
+#prent = rent / income * 100
+#putilities = utilities / income * 100
+#pfood = food / income * 100
+#ptransport = transport / income * 100
+#psavings = savings/income * 100
 def percent(type, amount): 
     per = amount/income *100
 
