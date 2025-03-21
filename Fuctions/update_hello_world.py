@@ -1,4 +1,4 @@
-# Blaine Buckler, Variable Notes
+# Blaine Buckler, Hello World Update
 nameOne = input("Please tell me 5 names: ")
 nameTwo = input("4 names left: ")
 nameThree = input("3 names left: ")
