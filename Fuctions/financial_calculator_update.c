@@ -1,9 +1,15 @@
 // Blaine Buckler, Financial Calculator C
 #include <stdio.h>
+    float income, rent, utilities, groceries, transportation, expenses, savings, total; 
+
+
+void percent(char type[], int amount){
+    int per = amount/ income *100; 
+
+    printf("The percent of your income for %s is %d%%.\n", type, per); 
+}
 
 int main(void){
-    float income, rent, utilities, groceries, transportation, savings, expenses, total; 
-    float prent, putilities, pgroceries,  ptransportation, psavings, pexpenses, left; 
     printf("Hello and welcome to our budget calculator\n"); 
     printf("How much do you make each month?");
     scanf("%f", &income); 
@@ -21,21 +27,11 @@ int main(void){
     printf("\nYour monthly income is $%.2f\n", income); 
     printf("\nYour monthly expenses is $%.2f\n", expenses); 
     printf("\nYour monthly savings is $%.2f\n", savings); 
-    printf("\nYou have $%.2f\n left over\n", total); 
-    prent = rent/income *100; 
-    putilities = utilities/income *100; 
-    pgroceries = groceries/income *100; 
-    ptransportation =transportation/income *100; 
-    pexpenses = expenses/income *100; 
-    psavings = savings/income *100; 
-    left = 100 - pexpenses - psavings; 
-    printf("\nYour exspenses are %.f%% of your income\n", pexpenses); 
-    printf("within your exspenses is: \n"); 
-    printf("    %.f%% is your rent\n", prent); 
-    printf("    %.f%% is your utilities\n", putilities); 
-    printf("    %.f%% is your groceries\n", pgroceries); 
-    printf("    %.f%% is your transportation\n", ptransportation); 
-    printf("\nYour savings are %.f%% of your income\n", psavings); 
-    printf("\nMeaning you will have %.f%% left over\n", left); 
+    printf("\nYou have $%.2f left over\n", total); 
+    percent("rent", rent); 
+    percent("utilities", utilities); 
+    percent("groceries", groceries); 
+    percent("transportation", transportation); 
+    percent("exspenses", expenses); 
     return 0;
 }

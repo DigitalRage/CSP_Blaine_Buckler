@@ -1,6 +1,8 @@
 # Blaine Buckler, Financial Calculator Update Python
 
 print("Welcome to my program, this program will calculate your finances. \n")
+
+
 income = float(input("Please tell me your monthly income: \n$"))
 rent = float(input("Please tell me your monthly rent: \n$"))
 utilities = float(input("Please tell me your monthly utilities: \n$"))
