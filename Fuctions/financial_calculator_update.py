@@ -16,9 +16,9 @@ spending = income - exspenses - savings
 #psavings = savings/income * 100
 #pexspenses = exspenses/income * 100
 def percent(type, amount): 
-    per = amount/income
+    per = amount/income *100
 
-    print(f"Your {type} is {per}% income. ")
+    print(f"Your {type} is {per:.2f}% income. ")
 
 print(f"Your monthly income is ${income:.2f}\n")
 print(f"Your monthly exspenses are ${exspenses:.2f}\n")
