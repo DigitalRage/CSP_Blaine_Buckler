@@ -5,7 +5,9 @@ int age
 
 int main(void){
     if(age > 18){
-        printf("You are old enough to drive")
+        printf("You are old enough to drive. ")
+    }else if (age >= 15){
+        printf("You are old enough to have a drivers permit. "); 
     }else{
         printf("You are not old enoug"); 
     }
