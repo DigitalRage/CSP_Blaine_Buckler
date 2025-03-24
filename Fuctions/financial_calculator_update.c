@@ -2,6 +2,22 @@
 #include <stdio.h>
     float income, rent, utilities, groceries, transportation, expenses, savings, total; 
 
+void getUserInput(float *income, float *rent, float *utilities, float *groceries, float *transportation) {
+    printf("How much do you make each month? ");
+    scanf("%f", income);
+    
+    printf("How much is your rent? ");
+    scanf("%f", rent);
+    
+    printf("How much do you pay for utilities? ");
+    scanf("%f", utilities);
+    
+    printf("How much do you spend on groceries? ");
+    scanf("%f", groceries);
+    
+    printf("How much do you spend on transportation? ");
+    scanf("%f", transportation);
+}
 
 void percent(char type[], int amount){
     int per = amount/ income *100; 
