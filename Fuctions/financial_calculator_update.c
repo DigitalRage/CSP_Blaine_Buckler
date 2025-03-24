@@ -2,21 +2,10 @@
 #include <stdio.h>
     float income, rent, utilities, groceries, transportation, expenses, savings, total; 
 
-void getUserInput(float *income, float *rent, float *utilities, float *groceries, float *transportation) {
-    printf("How much do you make each month? ");
-    scanf("%f", income);
+void getUserInput(char type[], float *cash) {
+    printf("How much %s? ", type);
+    scanf("%f", cash);
     
-    printf("How much is your rent? ");
-    scanf("%f", rent);
-    
-    printf("How much do you pay for utilities? ");
-    scanf("%f", utilities);
-    
-    printf("How much do you spend on groceries? ");
-    scanf("%f", groceries);
-    
-    printf("How much do you spend on transportation? ");
-    scanf("%f", transportation);
 }
 
 void percent(char type[], int amount){
@@ -27,16 +16,11 @@ void percent(char type[], int amount){
 
 int main(void){
     printf("Hello and welcome to our budget calculator\n"); 
-    printf("How much do you make each month?");
-    scanf("%f", &income); 
-    printf("How is your rent?");
-    scanf("%f", &rent); 
-    printf("How are your utilities?");
-    scanf("%f", &utilities); 
-    printf("How are your groceries?");
-    scanf("%f", &groceries);
-    printf("How is your transportation?");
-    scanf("%f", &transportation); 
+    getUserInput("do you make each month", &income);
+    getUserInput("is your rent", &rent);
+    getUserInput("are your utilities", &utilities);
+    getUserInput("are your groceries?", &groceries);
+    getUserInput("is your transportation?", &transportation);
     expenses = rent + utilities + groceries + transportation; 
     savings = income * .2; 
     total = income - savings - expenses; 
