@@ -1,6 +1,10 @@
 # Blaine Buckler, My Family Loop Python
 print("Some of my family members:", end=" ")
 
+ 
 famMembers = ["Sam", "Meika", "Kitsune", "Bruce"]
+range(len(famMembers))
 for member in famMembers:
-    print(member, end=" ")
+    member = member+", "
+    len(famMembers) - 1
+    print(member, end = )

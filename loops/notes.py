@@ -44,8 +44,8 @@ rand = random.randint(1,20)
 while num < 21:
     if num == rand:
         print(f"Goose!")
-        continue # tells the loop to be done
-        #break
+        #continue # tells the loop to be done
+        break
     else:
         print("Duck")
     num += 1
