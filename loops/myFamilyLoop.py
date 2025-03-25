@@ -2,9 +2,8 @@
 print("Some of my family members:", end=" ")
 
  
-famMembers = ["Sam", "Meika", "Kitsune", "Bruce"]
+famMembers = ["Sam,", "Meika,", "Kitsune,", "Bruce"]
 range(len(famMembers))
 for member in famMembers:
-    member = member+", "
-    len(famMembers) - 1
-    print(member, end = )
+    famMembers[3]= "and Bruce."
+    print(member, end=" ")
