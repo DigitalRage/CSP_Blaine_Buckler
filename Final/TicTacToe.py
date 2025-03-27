@@ -16,7 +16,9 @@ def board():
     print(f" {spaces[7]} | {spaces[8]} | {spaces[9]} ")
     print(" ")
 
-#Lisa
+board()
+
+#Lisa and Blaine
 def user_turn():
     taken_x = int(input("Pick a number between 1 and 9:\n")) #Debugged code to detect number and put in "taken_x" rather than elif for each number. I also stoped the infanite "blue_turn" glitch, Blaine
     if 1 <= taken_x <= 9 and spaces[taken_x] == taken_x:
@@ -26,7 +28,7 @@ def user_turn():
     else:
         print("Pick a different number.")
         user_turn() 
-#Eve
+#Eve and Blaine
 def winner():
     global winVar
     if (spaces[1] == spaces[2] == spaces[3] == "O" or #Made easier to understand by putting each condition on differnt lines, Blaine
@@ -51,6 +53,19 @@ def winner():
         name = input("What is your name?\n")
         print(f"Congratulations {name}, you won!")
         winVar = 1
+
+    elif (spaces[1] in ["X", "O"] and
+    spaces[2] in ["X", "O"] and
+    spaces[3] in ["X", "O"] and
+    spaces[4] in ["X", "O"] and 
+    spaces[5] in ["X", "O"] and 
+    spaces[6] in ["X", "O"] and 
+    spaces[7] in ["X", "O"] and
+    spaces[8] in ["X", "O"] and 
+    spaces[9] in ["X", "O"]): 
+        print("Tie Game")
+        winVar = 1
+        
     else:
         print("No winner yet, keep playing.")
 
