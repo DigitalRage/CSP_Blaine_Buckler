@@ -50,4 +50,24 @@ while num < 21:
         print("Duck")
     num += 1
 
+# Iterating through a list
+my_list = [1, 2, 3, 4, 5]
+for item in my_list:
+    print(item)
+
+# Iterating through a string
+my_string = "Hello"
+for char in my_string:
+    print(char)
+
+# Iterating using range()
+for i in range(5):  # Generates numbers from 0 to 4
+    print(i)
+
+# Iterating with index using enumerate()
+my_list = ['a', 'b', 'c']
+for index, value in enumerate(my_list):
+    print(f"Index: {index}, Value: {value}")
+    
+
 #continue tells loop to stop the specific round of the loop
