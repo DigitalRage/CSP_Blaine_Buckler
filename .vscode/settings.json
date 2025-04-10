@@ -1,4 +1,5 @@
 {
     "C_Cpp.default.compilerPath": "c:\\msys64\\ucrt64\\bin\\gettext.sh",
-    "C_Cpp.errorSquiggles": "disabled"
+    "C_Cpp.errorSquiggles": "disabled",
+    "liveServer.settings.port": 5501
 }
