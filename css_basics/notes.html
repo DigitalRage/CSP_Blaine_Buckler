@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Basics Notes</title>
+        <meta charset="UTF-8">
+            <!--embeded style sheet-->
+        <style>
+            /*selector how you tell the CSS on the page to change */
+            *{
+                background-color: greenyellow;
+            }
+            /*1. Element selector*/
+            li{
+                color: coral;
+            }
+            /*selector, propertys and then */
+            /*2. Id selector*/
+            #even{
+                color: blue;
+            }
+            /*3. Class Selector*/
+            .intro{
+                color: red;
+                text-align: center;
+            }
+            #image-src{
+                font-size: 7px;
+                color: grey; 
+            }
+            img{
+                width: 50%;
+            }
+            h1{
+                font-size: 35px;
+                text-align: center;
+                text-decoration: underline;
+                text-emphasis: bold;
+            }
+            /*Whatever is listed last is the one that works, Id already overides. 
+            Each selector is only used one time. */
+        </style>
+    </head>
+    <body>
+        <h1>Html Advanced Notes</h1>
+    <p class="intro">Nesting an html tag is putting it inside of another one</p>
+    <ol>
+        <li>li tags must be nested</li>
+        <li>What goes in the webpage has to be in the body tag</li>
+    </ol>
+    <div>
+        <h2>Candy!</h2>
+        <ul>
+            <li>Butterfinger</li>
+            <li id="even">Crunch</li>
+            <li>100 Grand</li>
+        </ul>
+        </div>
+    <div>
+        
+        <img src="https://miro.medium.com/v2/resize:fit:1200/0*3xTjr7rYOjGYjKqi.jpg"
+        alt="Ang trying to barter">
+        <p id="Image-src">Image from: Medium</p>
+        <dl>
+            <dt>Aang</dt>
+            <dd>The last airbender. The avatar...kinda a dork</dd>
+            <dt>Katara</dt>
+            <dd>Water Bender. From the south pole. Gives speaches about</dd>
+        </dl>
+        <a href="https://www.w3schools.com/html/html_attributes.asp" target="_blank">Atributes</a>
+        <br>
+        <a href="https://www.w3schools.com/html/html_links.asp" target="_blank">Links</a>
+        </body>
+</html>
