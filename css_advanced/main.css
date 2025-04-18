@@ -1,0 +1,32 @@
+*{
+    background-color: burlywood;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+p{
+    background-color: rgba(236, 120, 236, 0.545);
+    border-radius: 5px;
+    padding: 3px;
+    margin: 10px;
+}
+#content{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+#one{
+    display: flex;
+    flex-direction: column;
+}
+img{
+    height: 150px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+}
+/*Generic Font Familys
+1. Serif
+2. Sans-serif
+3. Monospace
+4. Cursive
+5. Fantasy*/
