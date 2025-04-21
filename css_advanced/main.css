@@ -19,10 +19,13 @@ p{
     flex-direction: column;
 }
 img{
-    height: 150px;
+    display: block;
+    margin: auto;
+    width: 50%s;
+    height: 150px;/*
     flex-wrap: wrap;
     justify-content: center;
-    align-items: flex-end;
+    align-items: flex-end;*/
 }
 /*Generic Font Familys
 1. Serif
