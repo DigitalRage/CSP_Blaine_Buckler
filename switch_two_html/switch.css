@@ -1,36 +1,51 @@
-
-*{
+* {
     color: rgb(158, 52, 52);
-    background-color: rgb(0, 255, 255); 
+    background-color: rgb(0, 255, 255);
     font-family: "Press Start 2P", system-ui;
     font-weight: 400;
     font-style: normal;
 }
-.Bold{
+
+.Bold {
     font-weight: bold;
 }
-h1{
+
+.Italic {
+    font-style: italic;
+}
+
+h1 {
     background-color: rgb(255, 78, 78);
     border-radius: 5px;
     padding: 10px;
     margin: 10px;
     text-align: center;
+    color: rgb(0, 167, 209);
 }
-img{
+
+img {
     border: 3px solid rgb(255, 0, 0);
 }
-a{
+
+/* Ensure images inside #Switch_two_img are properly sized */
+#Switch_two_img img {
+    width: 50%; /* Adjust size dynamically */
+    max-width: 400px; /* Limit maximum size */
+    height: auto; /* Maintain aspect ratio */
+}
+
+a {
     text-align: center;
     color: rgb(0, 0, 255);
 }
-h1{
-    color: rgb(0, 167, 209);
-}
-#Title{
+
+#Title {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
 }
-#switch_2_img{
+
+/* Properly match the corrected ID name */
+#Switch_two_img {
     width: 30%;
     border: 3px solid rgb(255, 0, 0);   
 }
