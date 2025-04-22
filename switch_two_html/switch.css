@@ -4,8 +4,10 @@
     font-family: "Press Start 2P", system-ui;
     font-weight: 400;
     font-style: normal;
+    box-sizing: border-box; 
 }
 
+/* Formatting classes */
 .Bold {
     font-weight: bold;
 }
@@ -20,18 +22,13 @@ h1 {
     padding: 10px;
     margin: 10px;
     text-align: center;
-    color: rgb(0, 167, 209);
+    color: rgb(49, 255, 186);
 }
 
 img {
     border: 3px solid rgb(255, 0, 0);
-}
-
-/* Ensure images inside #Switch_two_img are properly sized */
-#Switch_two_img img {
-    width: 50%; /* Adjust size dynamically */
-    max-width: 400px; /* Limit maximum size */
-    height: auto; /* Maintain aspect ratio */
+    max-width: 100%;
+    height: auto;
 }
 
 a {
@@ -39,13 +36,56 @@ a {
     color: rgb(0, 0, 255);
 }
 
-#Title {
+body {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+    justify-items: center;
 }
 
-/* Properly match the corrected ID name */
-#Switch_two_img {
-    width: 30%;
-    border: 3px solid rgb(255, 0, 0);   
+#Title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+#Switch_two_img, #Controller_img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+#Switch_two_img img,
+#Controller_img img {
+    width: 50%;
+    max-width: 400px;
+    height: auto;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 0;
+    list-style-type: none;
+}
+
+h1, h2, h3, h4, ul {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    #Title {
+        flex-direction: column;
+    }
+
+    #Switch_two_img img,
+    #Controller_img img {
+        width: 80%; 
+    }
 }
