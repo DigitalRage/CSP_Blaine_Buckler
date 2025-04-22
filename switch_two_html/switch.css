@@ -62,7 +62,7 @@ body {
 
 #Switch_two_img img,
 #Controller_img img {
-    width: 50%;
+    width: 70%;
     max-width: 400px;
     height: auto;
 }
@@ -79,13 +79,3 @@ h1, h2, h3, h4, ul {
     text-align: center;
 }
 
-@media (max-width: 768px) {
-    #Title {
-        flex-direction: column;
-    }
-
-    #Switch_two_img img,
-    #Controller_img img {
-        width: 80%; 
-    }
-}
