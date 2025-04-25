@@ -9,6 +9,9 @@
             #btn{
                 height: 100px;
                 width: 200px;
+                background-color: lightsalmon;
+                border-radius: 10px;
+                border: 15px solid orangered; 
             }
             #hidden{
                 display: none; 
@@ -20,7 +23,7 @@
     </head>
     <body>
         <h1 id="title" onclick="show()">Title of Page</h1>
-        <p id="dont" onclick="pop()">don't click me</p>
+        <p id="pop" onclick="popup()">don't click me</p>
         <button id="btn" onmouseover="highlight()" onmouseout="normal()" onclick="hello()">Click Me!</button>
         <script src="notes.js"></script>
         <img id="img" onmouseover="change()" src="https://upload.wikimedia.org/wikipedia/en/4/44/Crash_Bandicoot_Cover.png" alt="Bandicoot">

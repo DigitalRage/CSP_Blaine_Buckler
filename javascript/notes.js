@@ -1,6 +1,7 @@
 let images = ["https://upload.wikimedia.org/wikipedia/en/4/44/Crash_Bandicoot_Cover.png", "https://static.tvtropes.org/pmwiki/pub/images/cashbanooca.png", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzlPDIGglIikjE4_uXmPpzjGOaP9ePdxNTjw&s"]
 function hello(){
-    document.getElementById("title"). innerHTML = "Hello World!"
+    let name = prompt("What is your name?", "Idiot Boy")
+    document.getElementById("title"). innerHTML = "Hello "+ name + "!"
 }
 
     count = 0
@@ -34,4 +35,9 @@ function more(){
         document.getElementById("extra").style.display = "none"
     document.getElementById("shw").innerHTML = "Show More"
     }
+}
+
+function popup(){
+    window.alert("Don't click this. Really!")
+    window.prompt("Why did you click me?", "Explain yourself!")
 }
