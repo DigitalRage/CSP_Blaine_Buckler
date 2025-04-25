@@ -1,15 +1,13 @@
 const hoverImage = document.getElementById("hover-image");
 const images = [
-    "https://media.gamestop.com/i/gamestop/20019700/Nintendo-Switch-2", // Original image
-    "https://static1.thegamerimages.com/wordpress/wp-content/uploads/wm/2025/04/nintendo-switch-2-camera-peripheral.jpg" // Hover image
+    "https://www.rollingstone.com/wp-content/uploads/2025/01/Switch.jpg?w=1581&h=1054&crop=1",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlKekhuSH-iVZy3k-VaNAM1rDuCOWAN8VU1g&s" 
 ];
 
-// Mouseover: Change the image source
 hoverImage.onmouseover = function () {
     document.getElementById("hover-image").src = images[1];
 };
 
-// Mouseout: Revert the image source
 hoverImage.onmouseout = function () {
     document.getElementById("hover-image").src = images[0];
 };
