@@ -1,0 +1,27 @@
+.oxanium {
+    font-family: "Oxanium", sans-serif, monospace;
+    font-optical-sizing: auto;
+    font-weight: 700; 
+    font-style: normal;
+}
+p{
+    display: flex;
+    justify-content: center;
+}
+.bold{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+*{
+    background-color: burlywood;
+    font-family: "Oxanium", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+}
