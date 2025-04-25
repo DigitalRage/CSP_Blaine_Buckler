@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Infinite Images</title>
+</head>
+<body>
+  <div id="image-container" style="display: flex; flex-wrap: wrap;"></div>
+
+  <script>
+    const imageContainer = document.getElementById("image-container");
+    const imageURL = "mario.gif"; // Replace with your image URL
+
+    function createInfiniteImages() {
+      for (let i = 0; i < 16490; i++) { // Adjust the number of images as needed
+        const img = document.createElement("img");
+        img.src = imageURL;
+        img.alt = "Infinite Image";
+        imageContainer.appendChild(img);
+      }
+    }
+
+    createInfiniteImages();
+  </script>
+</body>
+</html>
