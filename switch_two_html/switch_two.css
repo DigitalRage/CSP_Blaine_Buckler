@@ -7,7 +7,6 @@
     box-sizing: border-box; 
 }
 
-/* Formatting classes */
 .Bold {
     font-weight: bold;
 }
@@ -79,3 +78,30 @@ h1, h2, h3, h4, ul {
     text-align: center;
 }
 
+#hover-image {
+    border: 3px solid rgb(0, 0, 255);
+}
+
+#hover-image:hover {
+    border: 3px solid rgb(255, 0, 0);
+}
+
+#extra {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+button {
+    background-color: #ff4343;
+    color: rgb(164, 242, 251);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #fe1206;
+}
