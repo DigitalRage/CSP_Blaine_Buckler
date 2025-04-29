@@ -6,14 +6,14 @@
 }
 
 *{
-    background-color: burlywood;
+    background-color: rgb(231, 216, 130);
     font-family: "Oxanium", system-ui;
     font-weight: 400;
     font-size: 20px;
-    color: rgb(0, 98, 98);
-    text-shadow: 2px 2px 5px grey;
+    color: rgb(0, 75, 98);
+    text-shadow: 4px 4px 10px rgb(156, 0, 0);
     text-decoration: none;
-    text-decoration-color: rgb(0, 196, 196);
+    text-decoration-color: rgb(0, 46, 196);
     text-decoration-thickness: 5px;
     text-underline-offset: 10px;
     text-transform: uppercase;
@@ -23,17 +23,16 @@
 }
 
 p{
-    display: flex;
-    justify-content: center;
+    font-weight: 100;
 }
 
-.bold{
+.format{
     font-weight: bold;
     font-size: 25px;
-    color: rgb(0, 196, 196);
-    text-shadow: 2px 2px 5px grey;
+    color: rgb(0, 124, 196);
+    text-shadow: 4px 4px 10px rgb(145, 85, 85);
     text-decoration: underline;
-    text-decoration-color: rgb(0, 196, 196);
+    text-decoration-color: rgb(0, 82, 189);
     text-decoration-thickness: 5px;
     text-underline-offset: 10px;
     text-transform: uppercase;
@@ -50,7 +49,7 @@ p{
     text-decoration-line: underline;
     text-decoration-skip-ink: none;
     text-decoration-thickness: 5px;
-    text-decoration-color: rgb(0, 196, 196);
+    text-decoration-color: rgb(0, 85, 196);
     text-decoration-line: underline;
     text-decoration-style: solid;
     text-decoration-skip-ink: none; 
@@ -61,10 +60,10 @@ h1 {
     justify-content: center;
     font-size: 100px;
     font-weight: 700;
-    color: rgb(0, 196, 196);
-    text-shadow: 2px 2px 5px grey;
+    color: rgb(37, 100, 235);
+    text-shadow: 2px 2px 5px rgb(255, 77, 77);
     text-decoration: underline;
-    text-decoration-color: rgb(0, 196, 196);
+    text-decoration-color: rgb(0, 142, 185);
     text-decoration-thickness: 5px;
     text-underline-offset: 10px;
     text-transform: uppercase;
@@ -79,11 +78,11 @@ h1 {
 }
 
 img{
-    border: 10px solid rgb(0, 196, 196);
+    border: 10px solid rgb(255, 47, 47);
     border-radius: 10px;
-    box-shadow: 10px 10px 5px grey;
-    width: 50%;
-    height: 500%;
+    box-shadow: 10px 10px 5px rgb(129, 35, 35);
+    width: 40%;
+    height: 400%;
     object-fit: cover;
     object-position: center;
     transition: all 0.3s ease-in-out;
@@ -91,7 +90,7 @@ img{
 
 img:hover {
     transform: scale(1.1);
-    box-shadow: 20px 20px 10px grey;
-    border-color: rgb(0, 220, 220);
+    box-shadow: 20px 20px 10px rgb(77, 23, 16);
+    border-color: rgb(255, 30, 0);
 }
 
