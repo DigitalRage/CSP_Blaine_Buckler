@@ -23,12 +23,13 @@
 }
 
 p{
+    font-size: 40px;
     font-weight: 100;
 }
 
 .format{
     font-weight: bold;
-    font-size: 25px;
+    font-size: 50px;
     color: rgb(0, 124, 196);
     text-shadow: 4px 4px 10px rgb(145, 85, 85);
     text-decoration: underline;
@@ -58,7 +59,7 @@ p{
 h1 {
     display: flex;
     justify-content: center;
-    font-size: 100px;
+    font-size: 150px;
     font-weight: 700;
     color: rgb(37, 100, 235);
     text-shadow: 2px 2px 5px rgb(255, 77, 77);
@@ -86,11 +87,23 @@ img{
     object-fit: cover;
     object-position: center;
     transition: all 0.3s ease-in-out;
+    justify-content: center;
 }
 
 img:hover {
     transform: scale(1.1);
     box-shadow: 20px 20px 10px rgb(77, 23, 16);
     border-color: rgb(255, 30, 0);
+    justify-content: center;
 }
 
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    font-size: 40px;
+    font-weight: 100;
+}
