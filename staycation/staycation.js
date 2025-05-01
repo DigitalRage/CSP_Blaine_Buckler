@@ -6,7 +6,7 @@
         "https://i.ytimg.com/vi/CLNhlnRh8nQ/maxresdefault.jpg"
     ];
 
-    let fish = [
+    let fishImages = [
         "https://cdn.allmoab.com/images/content/9805_8870_Green_River_Utah_Fishing_lg.jpg",
         "https://i.ytimg.com/vi/yadME4fOSJg/sddefault.jpg"
     ]; 
@@ -18,12 +18,27 @@
         rokCount = (rokCount + 1) % holNRok.length;
         document.getElementById("rok").src = holNRok[rokCount];
     }
-
-    function fishChange() {
-        fishCount = (fishCount + 1) % fish.length;
-        document.getElementById("fsh").src = fish[fishCount];
-    }
-
     setInterval(rokChange, 3000);
-    setInterval(fishChange, 3000);
+
+    function changeFishOnHover() {
+        fishCount = (fishCount + 1) % fishImages.length;
+        console.log("Fish image changed to:", fishImages[fishCount]); 
+        const fishElement = document.getElementById("fsh");
+        if (fishElement) {
+            fishElement.src = fishImages[fishCount];
+        } else {
+            console.error("Image element with id 'fsh' not found."); 
+        }
+    }
+    
+    document.addEventListener("DOMContentLoaded", function() {
+        const fishElement = document.getElementById("fsh");
+        if (fishElement) {
+            fishElement.addEventListener("mouseover", changeFishOnHover);
+            console.log("Hover event listener added."); 
+        } else {
+            console.error("Image element with id 'fsh' not found."); 
+        }
+    });
 })();
+

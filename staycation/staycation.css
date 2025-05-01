@@ -20,6 +20,16 @@
     letter-spacing: 5px;
     word-spacing: 10px;
     line-height: 1.5;
+
+}
+
+body {
+    display: flex; /* Enables Flexbox */
+    flex-direction: column; /* Stacks elements vertically */
+    align-items: center; /* Centers content horizontally */
+    justify-content: center; /* Centers content vertically */
+    min-height: 100vh; /* Ensures full viewport height */
+    margin: 0; /* Removes default browser margin */
 }
 
 p{
@@ -78,16 +88,15 @@ h1 {
     text-wrap: balance;
 }
 
-img{
+img {
     border: 10px solid rgb(255, 47, 47);
     border-radius: 10px;
     box-shadow: 10px 10px 5px rgb(129, 35, 35);
-    width: 40%;
-    height: 400%;
-    object-fit: cover;
-    object-position: center;
+    width: auto; /* Allow natural width */
+    max-width: 1000px; /* Restrict the maximum width */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Ensure the entire image is visible */
     transition: all 0.3s ease-in-out;
-    justify-content: center;
 }
 
 img:hover {
@@ -98,12 +107,23 @@ img:hover {
 }
 
 .image-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: flex; /* Use Flexbox */
+    justify-content: center; /* Center images horizontally */
+    align-items: center; /* Center images vertically */
+    flex-wrap: wrap; /* Allow wrapping if there are too many images */
+    gap: 20px; /* Add space between images */
+}
+
+ul {
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(50px, auto));
+    justify-items: start; 
+    gap: 15px;
+    list-style: none; 
 }
 
 li{
     font-size: 40px;
     font-weight: 100;
 }
+
