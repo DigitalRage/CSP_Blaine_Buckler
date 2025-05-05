@@ -40,5 +40,21 @@
             console.error("Image element with id 'fsh' not found."); 
         }
     });
+
+    function more() {
+        let extraContent = document.getElementById("extra");
+        let button = document.getElementById("shw");
+    
+        if (extraContent.style.display === "none" || extraContent.style.display === "") {
+            extraContent.style.display = "block";
+            button.innerHTML = "Show Less";
+        } else {
+            extraContent.style.display = "none";
+            button.innerHTML = "Show More";
+        }
+    }
+    
+
+    window.more = more;
 })();
 
