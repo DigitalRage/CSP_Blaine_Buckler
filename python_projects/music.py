@@ -1,3 +1,3 @@
 from playsound import playsound
 
-    playsound('song.mp3')
+playsound('music.mp3')
