@@ -1,3 +1,2 @@
-from playsound import playsound
-
-playsound('music.mp3')
+import pygame
+print("pygame is ready!")
